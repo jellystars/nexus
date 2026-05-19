@@ -1,8 +1,8 @@
 # Python
-backend/venv/
-backend/__pycache__/
-backend/*.pyc
-backend/.env
+backend/itdashboard/venv/
+backend/itdashboard/__pycache__/
+backend/itdashboard/*.pyc
+backend/itdashboard/.env
 
 # Node
 frontend/node_modules/
