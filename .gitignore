@@ -2,7 +2,8 @@
 backend/itdashboard/venv/
 backend/itdashboard/__pycache__/
 backend/itdashboard/*.pyc
-backend/itdashboard/.env
+.env
+**/.env
 
 # Node
 frontend/node_modules/

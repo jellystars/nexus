@@ -8,10 +8,6 @@ export default function Sidebar({ page, setPage }) {
   return (
     <aside className="w-20 flex-shrink-0 flex flex-col items-center py-6 gap-6"
       style={{ backgroundColor: "#0d0d14", borderRight: "1px solid #1a1a24" }}>
-      <div className="w-10 h-10 flex items-center justify-center text-black text-[10px] tracking-wider font-bold"
-        style={{ background: "linear-gradient(135deg,#00ff41,#00d9ff)" }}>
-        SYS
-      </div>
       <nav className="flex-1 flex flex-col gap-4 mt-6">
         {items.map(({ icon: Icon, label, id }) => (
           <button key={id} onClick={() => setPage(id)} title={label}

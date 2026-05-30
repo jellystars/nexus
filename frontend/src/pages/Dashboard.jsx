@@ -25,7 +25,7 @@ export default function Dashboard({ live, history, alerts, setAlerts, range, set
   return (
     <main className="flex-1 overflow-auto p-6">
       <div className="mb-8">
-        <h1 className="text-2xl font-mono font-bold tracking-[0.2em] mb-1" style={{ color: "#00ff41" }}>SYSWATCH</h1>
+        <h1 className="text-2xl font-mono font-bold tracking-[0.2em] mb-1" style={{ color: "#00ff41" }}>NEXUS</h1>
         <div className="text-xs tracking-[0.15em]" style={{ color: "#666" }}>REAL-TIME MONITORING INTERFACE</div>
       </div>
 
